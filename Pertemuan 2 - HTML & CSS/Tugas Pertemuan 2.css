@@ -1,0 +1,83 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+h2 {
+    font-weight: 600;
+    text-align: center;
+}
+
+/*Form*/
+.form {
+    margin: auto;
+    width: 50%;
+}
+
+#npm, #nama, #prodi {
+    width: 100%;
+    margin-top: 10px;
+    height: 25px;
+}
+
+#alamat {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#jk {
+    margin-top: 10px;
+    accent-color: rgb(19, 105, 235);
+    border-radius: 10px;
+}
+
+#prodi {
+    height: 30px;
+    padding-left: 5px;
+}
+
+#tambah {
+    width: 65px;
+    height: 30px;
+    padding-left: 5px;
+    background-color: rgb(19, 105, 235);
+    border: none;
+    color:aliceblue;
+    border-radius: 3px;
+}
+
+#tambah:hover {
+    background-color: rgb(0, 35, 87);
+    cursor: pointer;
+}
+
+/*Tabel*/
+.tabel {
+    margin: auto;
+    width: 65%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-style: solid;
+    border-color: rgba(211, 211, 211, 0.281);
+    border-width: 2px;
+}
+
+/*Galeri*/
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+}
+
+img {
+    width: 100%;
+}
+
+.box {
+    padding: 10px;
+}
