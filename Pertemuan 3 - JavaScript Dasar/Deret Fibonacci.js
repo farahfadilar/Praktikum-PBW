@@ -8,7 +8,7 @@ function fibonacci(suku)
 
 	for (var i = 0; i < suku; i++)
 	{
-    	console.log(suku1);
+		console.log(suku1);
 		sukuN = suku1 + suku2;
 		suku1 = suku2;
 		suku2 = sukuN;
