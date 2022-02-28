@@ -1,4 +1,4 @@
-/* function fibonacci(suku)
+function fibonacci(suku)
 {
 	var suku1 = 0;
 	var suku2 = 1;
@@ -17,4 +17,3 @@
 
 console.log(fibonacci(5));
 console.log(fibonacci(10));
- */
