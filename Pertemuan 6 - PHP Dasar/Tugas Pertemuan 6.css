@@ -1,0 +1,21 @@
+.nav-link:hover {
+    font-weight: bold;
+}
+
+h1 {
+    color: #4c7ea1;
+}
+
+#footer {
+    text-align: center;
+    background-color: #e3f2fd;
+    font-family: monospace;
+    padding: 5px;
+    padding-top: 10px;
+    color:rgb(133, 174, 201);
+}
+
+thead {
+    background-color: #4c7ea1;
+    color: #e3f2fd;
+}
