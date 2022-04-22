@@ -12,9 +12,14 @@ class Book
     }
     public function getCodeBook()
     {
-        
-        return $this->code_book;
+        $check = preg_match('/^[A-Z]{2}[0-9]{2}$/', $this->code_book);
+        if ($check == 0) {
+            return "Error";
+        } else {
+            return $this->code_book;
+        }
     }
+
     private function setName($name)
     {
         $this->name = $name;
@@ -23,13 +28,14 @@ class Book
     {
         return $this->name;
     }
+
     private function setQty($qty)
     {
         $this->qty = $qty;
     }
     public function getQty()
     {
-        if ($this->qty < 0 ) {
+        if ($this->qty <= 0 ) {
             return "Error";
         } else {
             return $this->qty;
